@@ -11,8 +11,8 @@ from collections import Counter
 
 gain_cnt = 23000
 
-username = 'k@brandandface'
-password = 'bisfip-9dontA-sanqot'
+username = 'MOYSKLAD_LOGIN'
+password = 'MOYSKLAD_PASSWORD'
 
 own_credentials = base64.b64encode(f"{username}:{password}".encode()).decode()
 import magic
