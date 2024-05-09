@@ -15,7 +15,7 @@ headers = {
     "Authorization": f"Basic {own_credentials}",
     "Accept-Encoding": "gzip"
 }
-bot = telebot.TeleBot('6738416946:AAHPlr7JkNy6Kmo2-XnacXYkUHtsVZLXc84')
+bot = telebot.TeleBot('BOT_TOKEN')
 
 def get_products():
     url = 'https://api.moysklad.ru/api/remap/1.2/entity/product'
