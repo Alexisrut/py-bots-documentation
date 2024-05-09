@@ -4,7 +4,7 @@ from PIL import Image
 import os
 from reportlab.pdfgen import canvas
 from pdf2image import convert_from_path
-bot = telebot.TeleBot('7163634904:AAE3nm0UXRz6eMt6zq2kstI63V5oN1OF_ak')
+bot = telebot.TeleBot('BOT_TOKEN')
 def pdf_to_jpeg(pdf_path):
 
             # Создаем массив для хранения названий файлов
