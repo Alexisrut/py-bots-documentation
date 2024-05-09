@@ -7,8 +7,8 @@ import base64
 import telebot
 from telebot import types
 import json
-username = 'k@brandandface'
-password = 'bisfip-9dontA-sanqot'
+username = 'MOYSKLAD_LOGIN'
+password = 'MOYSKLAD_PASSWORD'
 own_credentials = base64.b64encode(f"{username}:{password}".encode()).decode()
 code = 13080
 headers = {
