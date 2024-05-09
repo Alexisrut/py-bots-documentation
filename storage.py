@@ -395,7 +395,7 @@ while True:
             file_type = mime.from_file(file_path)
             return file_type
 
-        bot = telebot.TeleBot('7055129335:AAEZULBc9mHycgAnBt0id7CtchB0TI-iQKA')
+        bot = telebot.TeleBot('BOT_TOKEN')
         name = None
         chat_id = ""
         cnt = 0
